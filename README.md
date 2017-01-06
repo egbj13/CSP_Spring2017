@@ -6,7 +6,7 @@ Kevin Smith -- smith.kevin2001@gmail.com
 Emily Bjorensen 
 James Musone
 Graham Adams
-Ethan Finck
+Ethan Finck -- efinck2002@gmail.com
 
 Welcome Class!
 
