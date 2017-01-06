@@ -8,3 +8,5 @@ James Musone
 Graham Adams
 Ethan Finck
 
+Welcome Class!
+
