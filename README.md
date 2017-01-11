@@ -10,3 +10,5 @@ Ethan Finck
 
 Welcome Class!
 
+Go Jackets!!
+
