@@ -25,19 +25,20 @@
  *
  *****************************************************************************/
 
-MAX   //function name
-INPUTS (a, b)
+MAX   #function name
+INPUTS ( required a, required b)
 OUTPUT (whichever is max value)
 
 Variables:  none
 Constants: none
 
-start //start of program
+start #start of program
 
 if a > b
     return a
 else
     return b
 
-end //end of program
+end 
+#end of program
     
