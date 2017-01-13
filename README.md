@@ -5,8 +5,7 @@ Brad Smith -- bradanna@gmail.com
 Kevin Smith -- smith.kevin2001@gmail.com
 Emily Bjorensen 
 James Musone
-Graham Adams
+Graham Adams -- grahamadamsemail@gmail.com
 Ethan Finck
 
 Welcome Class!
-
