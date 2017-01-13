@@ -10,3 +10,5 @@ Ethan Finck -- efinck2002@gmail.com
 
 Welcome Class!
 
+Go Jackets!!
+
