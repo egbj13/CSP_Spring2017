@@ -24,22 +24,25 @@
  * Modifications:
  *
  *****************************************************************************/
+include "other file name"
+require "other file name"
 
-FUNCTION_NAME   //(all caps)
-INPUTS (list of variables that are passed to function)
+
+FUNCTION_NAME   #(all caps)
+INPUTS (required/optional list of variables that are passed to function)
 OUTPUT (what function does, maybe nothing)
 
 Variables:  temp, dogs, cats, rain, date //comma separated list examples
 Constants: PACK=10, HOUSES=4  //constants are initialized and capitalized
 
-start //start of program
+start #start of program
 
-//while loop example
+#while loop example
 while (TRUE)
     next statement   //indented 4 spaces
 end 
 
-// if - else if - else example
+# if - else if - else example
 if (dogs != cats)
     print "of course"
 else if (dogs > cats)
@@ -48,12 +51,12 @@ else
     print "maybe cats are better after all"
 end
 
-//for loop example
+#for loop example
 for (temp = 0; temp < PACK, temp++)
     cats = rain*HOUSES*temp
 end
 
-//switch example
+#switch example
 switch (date)
     case TODAY:
         print "hi"
@@ -65,7 +68,7 @@ switch (date)
         break;
 end
 
-//case example
+#case example
 case (date)
     when TODAY:
         print "hi"
@@ -76,5 +79,5 @@ end
 
 return (rain * 5)
 
-end //end of program
+end #end of program
     
