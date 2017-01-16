@@ -1,0 +1,51 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * Butter Milk Crispy Chicken Salad Recipe 
+ *
+ * @file csp_Butter Milk Chicken Salad
+ * @Ethan Finck
+ * @date 1/14/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+
+Butter Milk Crispy Chicken Salad  #function name
+Variables: 
+(black beans) 
+(roasted corn) 
+(tomatoes) 
+(poblano pepper) 
+(cheddar cheese) 
+(jack cheese)
+(chill-lime tortilla) 
+(strips) 
+(cilantro) 
+(ribbon cut carrots) 
+(lime wedge) 
+(newmans own south west dressing)  
+Constants: 
+(crisp chopped romaine) 
+(baby spinach) 
+(baby kale) 
+(red leaf lettuce) 
+(chicken breast filet)
+
+
+end #end of program
+    
