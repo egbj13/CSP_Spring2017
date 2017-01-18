@@ -1,0 +1,44 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * Find and return the maximum value of two numbers
+ *
+ * @file csp_Big breakfast with hotcakes
+ * @author Ethan Finck
+ * @date 1/18/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+
+Big breakfast with hot cakes   #function name
+INPUTS none
+OUTPUT none
+
+Variables: 
+(butter)
+(eggs)
+(hash browns)
+Constants: 
+(hot cakes)
+(sausage) 
+(biscuit)
+(maple syrup)
+
+end 
+#end of program
+    
