@@ -15,7 +15,7 @@
 /**
  * Find and return the maximum value of two numbers
  *
- * @file csp_Bacon Ranch Salad & Buttermilk Crispy Chicken 
+ * @file csp_Bacon Ranch Salad & Buttermilk Crispy Chicken
  * @author Emily Bjorensen 
  * @date 1/18/2017
  */
