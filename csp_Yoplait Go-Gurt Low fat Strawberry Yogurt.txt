@@ -1,0 +1,35 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * Yoplait Go-Gurt Low fat Strawberry Yogurt #function name
+ *
+ * @file csp_Yoplait Go-Gurt Low fat Strawberry Yogurt #function name
+ * @author Kevin Smith
+ * @date 1/19/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+*****************************************************************************/
+
+start #start of program
+Yoplait Go-Gurt Low fat Strawberry Yogurt
+Variables:
+(None)
+Constants:
+(Strawberry flavor)
+(25% less sugar)
+end #end of program
