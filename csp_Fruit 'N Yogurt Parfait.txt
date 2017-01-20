@@ -1,0 +1,36 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * Fruit 'N Yogurt Parfait #function name
+ *
+ * @file csp_Fruit 'N Yogurt Parfait
+ * @author Kevin Smith
+ * @date 1/19/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+*****************************************************************************/
+
+start #start of program
+Fruit 'N Yogurt Parfait #function name
+Variables:
+(Strawberries)
+(Low fat Crunchy Granola)
+Constants:
+(Low fat Yogurt)
+(Bluebirds)
+ends #end of program
