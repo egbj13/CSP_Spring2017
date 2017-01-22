@@ -13,31 +13,23 @@
  *****************************************************************************/
 
 /**
- * Find and return the maximum value of two numbers
+ * Yoplait Go-Gurt Low fat Strawberry Yogurt #function name
  *
- * @file csp_max.txt
- * @author Brad Smith
- * @date 1/3/2017
+ * @file csp_Yoplait Go-Gurt Low fat Strawberry Yogurt #function name
+ * @author Kevin Smith
+ * @date 1/19/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
- *****************************************************************************/
+*****************************************************************************/
 
-MAX   //function name
-INPUTS (a, b)
-OUTPUT (whichever is max value)
-
-Variables:  none
-Constants: none
-
-start //start of program
-
-if a > b
-    return a
-else
-    return b
-
-end //end of program
-    
+start #start of program
+Yoplait Go-Gurt Low fat Strawberry Yogurt
+Variables:
+(None)
+Constants:
+(Strawberry flavor)
+(25% less sugar)
+end #end of program
