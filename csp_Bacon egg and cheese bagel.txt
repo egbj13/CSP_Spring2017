@@ -1,0 +1,42 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * Bacon egg and cheese bagel recipe 
+ *
+ * @file csp_Bacon egg and cheese bagel 
+ * @author Ethan Finck
+ * @date 1/18/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+BaconEggCheeseBagelType BaconEggCheeseBagel (bacon=True, egg=True, cheese=True, butter=True)
+BaconEggCheeseBagelType retVal=bagel;
+if (bacon==True)
+    retVal+=bacon
+end
+if (egg==True)
+    retVal+=egg
+end
+if(cheeese==True)
+    retVal+=cheese
+end 
+if(butter==True)
+    retVal+=butter
+end 
+return (retVal)
+    
