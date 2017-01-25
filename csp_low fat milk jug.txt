@@ -13,30 +13,24 @@
  *****************************************************************************/
 
 /**
- * Bacon egg and cheese bagel recipe 
+ * Low fat Milk Jug #function name
  *
- * @file csp_Bacon egg and cheese bagel 
- * @author Ethan Finck
- * @date 1/18/2017
+ * @file csp_Low far Milk Jug
+ * @author Kevin Smith
+ * @date 1/19/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
- *****************************************************************************/
+*****************************************************************************/
 
-BaconEggCheeseBagelType BaconEggCheeseBagel (bacon=True, egg=True, cheese=True, butter=True)
-BaconEggCheeseBagelType retVal=bagel;
-if (bacon==True)
-    retVal+=bacon
-end
-if (egg==True)
-    retVal+=egg
-end
-if(cheeese==True)
-    retVal+=cheese
-end 
-if(butter==True)
-    retVal+=butter
-end 
-return (retVal)
+Start
+Low fat Milk Jug #function name
+Variables:
+None
+
+Constants:
+1% low fat milk
+
+end #end of program
