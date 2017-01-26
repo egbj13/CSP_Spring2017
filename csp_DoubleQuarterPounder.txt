@@ -1,0 +1,44 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * Egg White Delight Recipe #function name
+ *
+ * @file csp_Egg White Delight McMuffin
+ * @author Ethan Finck
+ * @date 1/14/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+DoubleQuarterPounderType DoubleQuarterPounder (beefpatty=True, americancheese=True, ketchup=True, onions=True, pickles=True ) 
+DoubleQuarterPounder retVal=sesameseedbun
+if (beefpatty==True)
+    retVal+=beefpatty
+end
+if (americancheese==True)
+    retVal+=americancheese
+end
+if (ketchup==True)
+    retVal+=ketchup
+end
+if (onions==True)
+    retVal+=onions
+end
+if (pickles==True)
+    retVal+=pickles
+end
+return (retVal)
