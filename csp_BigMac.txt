@@ -24,8 +24,8 @@
  * Modifications:
  *
  *****************************************************************************/
-DoubleQuarterPounderType DoubleQuarterPounder (beefpatty=True, americancheese=True, ketchup=True, onions=True, pickles=True ) 
-DoubleQuarterPounder retVal=sesameseedbun
+BicMacType BigMac (beefpatty=True, americancheese=True, ketchup=True, onions=True, pickles=True, bigmacsauce=True, lettuce=True) 
+BigMac retVal=bigmacbun
 if (beefpatty==True)
     retVal+=beefpatty
 end
@@ -40,5 +40,11 @@ if (onions==True)
 end
 if (pickles==True)
     retVal+=pickles
+end
+if (lettuce==True)
+    retVal+=lettuce
+end
+if (bigmacsauce==True)
+    retVal+=bigmacsause
 end
 return (retVal)
