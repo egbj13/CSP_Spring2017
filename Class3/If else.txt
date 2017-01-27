@@ -102,10 +102,6 @@ else
     print "The variable testValue was ODD"
 end
 
-if(testValue % 3 == 0)  #check is also divisible by 3
-    print "The variable testValue is divisible by 3 too"
-end
-
 Output:
 "The variable testValue is divisible by 3 too"
 ---------------------------------------------------------------------------------
