@@ -1,4 +1,5 @@
 Computer Science Principles - Operators
+Spring 2017
 
 An operator in a programming language is a symbol that tells the compiler or interpreter to perform specific mathematical, relational or logical operation and produce final result. This chapter will explain the concept of operators and it will take you through the important arithmetic and relational operators available in C, Java, and Python.
 Arithmetic Operators
