@@ -27,15 +27,11 @@
 include "other file name"
 require "other file name"
 
-
-FUNCTION_NAME   #(all caps)
-INPUTS (required/optional list of variables that are passed to function)
-OUTPUT (what function does, maybe nothing)
+OutputDataType FunctionName (input1, input2, ..... inputx)  #example of how to specify a function
 
 Variables:  temp, dogs, cats, rain, date //comma separated list examples
 Constants: PACK=10, HOUSES=4  //constants are initialized and capitalized
 
-start #start of program
 
 #while loop example
 while (TRUE)
