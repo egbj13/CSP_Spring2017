@@ -1,0 +1,107 @@
+Computer Science Principles
+If - If else Decision making
+
+
+Almost every function must make at least one decision on data, to be able to smartly execute different code paths. Popular way of thinking is "If this, then that". 
+
+1. If decision blocks start with keyword "if" and end with keyword "end"
+2. Lines of code within the block shall be indented 4 spaces
+3. Multiple decisions are formed with an "else" or if a second decision is made, "else if"
+
+
+Format of a "if" code block
+
+if (statement to be tested TRUE/FALSE)
+    line of code to execute if TRUE
+    line of code to execute if TRUE
+    ..... #more lines if necessary
+end
+
+#NOTE that the if - end are on same point in the line.
+---------------------------------------------------------------------------------
+Format of a "if - else" code block
+
+if (statement to be tested TRUE/FALSE)
+    line of code to execute if TRUE
+    line of code to execute if TRUE
+    ..... #more lines if necessary
+else
+    line of code to execute if FALSE
+    line of code to execute if FALSE
+    ..... #more lines if necessary
+end
+
+#NOTE that the if - else - end are on same point in the line.
+---------------------------------------------------------------------------------
+Format of a "if - else if - else" code block
+
+if (statement 1 to be tested TRUE/FALSE)
+    line of code to execute if  #1 is TRUE
+else if (statement 2 to be tested TRUE/FALSE)
+    line of code to execute if #1 was FALSE, #2 is TRUE
+else
+    line of code to execute if both #1 and #2 are FALSE
+end
+
+#NOTE that the if - else if - else - end are on same point in the line.
+---------------------------------------------------------------------------------
+Example, test if number is even/odd
+
+integer testValue = 6
+
+if (testValue % 2 == 0)   #The % operator is called "modulo" and returns the remainder portion of a division math operation
+    print "The variable testValue was EVEN"
+else
+    print "The variable testValue was ODD"
+end
+
+Output:
+"The variable testValue was EVEN"
+---------------------------------------------------------------------------------
+Example, nested tests
+integer testValue = 6
+
+if (testValue % 2 == 0)   #The % operator is called "modulo" and returns the remainder portion of a division math operation
+    print "The variable testValue was EVEN"
+    if(testValue % 3 == 0)  #check is also divisible by 3
+        print "The variable testValue is divisible by 6 too"
+    end
+else
+    print "The variable testValue was ODD"
+end
+
+Output:
+"The variable testValue was EVEN"
+"The variable testValue is divisible by 6 too"
+---------------------------------------------------------------------------------
+Example, multiple tests, not exclusive.
+integer testValue = 9
+
+if (testValue % 2 == 0)   #The % operator is called "modulo" and returns the remainder portion of a division math operation
+    print "The variable testValue was EVEN"
+else
+    print "The variable testValue was ODD"
+end
+
+if(testValue % 3 == 0)  #check is also divisible by 3
+    print "The variable testValue is divisible by 3 too"
+end
+
+Output:
+"The variable testValue was ODD"
+"The variable testValue is divisible by 3 too"
+---------------------------------------------------------------------------------
+Example, multiple tests, exclusive.
+integer testValue = 9
+
+if (testValue % 2 == 0)   #The % operator is called "modulo" and returns the remainder portion of a division math operation
+    print "The variable testValue was EVEN"
+else if (testValue % 3 == 0)  #check is also divisible by 3
+	print "The variable testValue is divisible by 3 too"
+else
+    print "The variable testValue was ODD"
+end
+
+Output:
+"The variable testValue is divisible by 3 too"
+---------------------------------------------------------------------------------
