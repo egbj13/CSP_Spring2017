@@ -1,0 +1,95 @@
+Computer Science Principles
+Functions and Modules
+
+
+"(1) In programming, a named section of a program that performs a specific task. In this sense, a function is a type of procedure or routine. Some programming languages make a distinction between a function, which returns a value, and a procedure, which performs some operation but does not return a value."
+
+1. Function is a small program, often used when there are steps that are repeated often within a program.
+2. Functions should be small in scope, which makes them easily testable, repeatable, and therefore high quality with less chance of error.
+3. Functions may or may not output a piece of data, and may or may not have one or more data inputs.
+4. 
+
+Format of a Function:
+
+data_return_type  Name_of_function ( list of variable inputs)
+
+Explained:
+data_return_type -- This describes what type of data the function is going to return. Could be standard types like integer, float, string, boolean, etc. Also could be 
+                    user defined data types. If no specific output comes from the function, there is not a specific output, this is specified as "void"
+
+Name_of_function -- The function name should a short, descriptive name that alludes to what the function does. This helps the readability of the code.
+
+input variables -- These are variables that the function requires to perform its operations. A function may not have any inputs, in which case the parameter list
+                   looks like ( void ). Multiple inputs are separated by a comma.
+
+                   If inputs are given a default value, then the function may be called (executed) by not passing in variables. The program will recognize this and use
+                   the default values. If any value other than the defaults are used, then ALL inputs must be specified.
+
+
+Examples:
+/**
+ * Example of print function. Will print an input string to the computer screen
+ *
+ * @author Brad Smith
+ * @date 1/3/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+void Print( string_to_print )
+
+  PrintScreen ( string_to_ print)
+end
+
+The above function only prints to the screen, and takes a input string. There is not output, because the function does this by printing to the screen.
+
+Example usage:
+
+Print("Welcome to our program.")
+Print("We love to learn to program")
+Print("Hello world!")
+
+-----------------------------------------------------------------------------------------------------------------------------
+/**
+ * Example of square function. Will return the square of an input
+ *
+ * @author Brad Smith
+ * @date 1/3/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+integer square( number )
+
+  return (number * number)
+end
+
+This function takes a number, and forms the square by multiplying it by itself.
+
+Example usage:
+
+1. define a variable to hold the result
+   integer result
+2. Call the function on a specific number
+   result = square(5)
+
+   #result will be equal to 25 here
+
+3. Pass in a variable to the function, and the value of the variable will be squared. Same example, using variables
+
+   integer result, number = 5   #declares two variables, and initializes "number" to the value 5
+   result = square(number)
+-----------------------------------------------------------------------------------------------------------------------------
+
+Modules
+
+1. Modules are a single file, with many RELATED functions inside the file.
+2. An example "math" module would have max() min() square() sum() quotient() etc all within the same file.
+3. Modules are a better way to organize code into smart, related containers.
+
+
+
