@@ -24,7 +24,7 @@
  * Modifications:
  *
  *****************************************************************************/
-GrandMacType BigMac (beefpatty=True, americancheese=True, pickles=True, onions=True bigmacsauce=True, lettuce=True grillseasoning=True) 
+GrandMacType GrandMac (beefpatty=True, americancheese=True, pickles=True, onions=True bigmacsauce=True, lettuce=True grillseasoning=True) 
 GrandMac retVal=grandmacbun
 if (beefpatty==True)
     retVal+=beefpatty
