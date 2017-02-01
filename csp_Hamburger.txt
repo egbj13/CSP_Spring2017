@@ -1,0 +1,44 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * Egg White Delight Recipe #function name
+ *
+ * @file csp_Hamburger
+ * @author Ethan Finck
+ * @date 1/30/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+HamburgerType Hamburger (beefpatty=True, ketchup=True, onions=True, pickles=True, mustard=True) 
+Hamburger retVal=regularbun
+if (beefpatty==True)
+    retVal+=beefpatty
+end
+if (mustard==True)
+    retVal+=mustard
+end
+if (ketchup==True)
+    retVal+=ketchup
+end
+if (onions==True)
+    retVal+=onions
+end
+if (pickles==True)
+    retVal+=pickles
+end
+return (retVal)
