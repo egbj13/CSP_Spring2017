@@ -1,0 +1,41 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * Bacon Ranch Salad & Buttermilk Crispy Chicken Recipe 
+ *
+ * @file csp_Bacon Ranch Salad & Buttermilk Crispy Chicken
+ * @Emily Bjorensen 
+ * @date 2/2/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+Bacon Ranch Salad & Buttermilk Crispy Chicken Type Bacon Ranch Salad & Buttermilk Crispy Chicken (crispychickenfilet=True, Grapetomatoes=True, Thickcutbacon=True, Shreddedcheese=True) 
+Bacon Ranch Salad & Buttermilk Crispy Chicken retVal=Saladblend
+
+If (crispychickenfilet==True)
+    retVal+=crispychickenfilet
+end
+If (Grapetomatoes==True)
+    retVal+=Grapetomatoes
+end
+If (Thickcutbacon==True)
+    retVal+=Thickcutbacon
+end
+If (Shreddedcheese==True)
+    retVal+=Shreddedcheese
+return (retVal)
