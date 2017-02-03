@@ -13,10 +13,10 @@
  *****************************************************************************/
 
 /**
- * Butter Milk Crispy Chicken Salad Recipe 
+ * Egg White Delight Recipe #function name
  *
- * @file csp_Butter Milk Chicken Salad
- * @Ethan Finck
+ * @file csp_Egg White Delight McMuffin
+ * @author Ethan Finck
  * @date 1/14/2017
  */
 
@@ -24,19 +24,21 @@
  * Modifications:
  *
  *****************************************************************************/
-ButterMilkCrispyChickenSaladType ButterMilkCrispyChickenSalad (babyspinach=True, babykale=True, chickenbreastfilet=True, redleaflettuce=True) 
-ButterMilkCrispyChickenSalad retVal=choppedromain;
-
-if (babyspinach==True)
-    retVal+=babyspinach
+DoubleQuarterPounderType DoubleQuarterPounder (beefpatty=True, americancheese=True, ketchup=True, onions=True, pickles=True ) 
+DoubleQuarterPounder retVal=sesameseedbun
+if (beefpatty==True)
+    retVal+=beefpatty
 end
-if (babykale==True)
-    retVal+=babykale
+if (americancheese==True)
+    retVal+=americancheese
 end
-if (chickenbreastfilet==True)
-    retVal+=chickenbreastfilet
+if (ketchup==True)
+    retVal+=ketchup
 end
-if (redleaflettuce==True)
-    retVal+=redleaflettuce
+if (onions==True)
+    retVal+=onions
+end
+if (pickles==True)
+    retVal+=pickles
 end
 return (retVal)
