@@ -13,30 +13,39 @@
  *****************************************************************************/
 
 /**
- * Butter Milk Crispy Chicken Salad Recipe 
+ * Egg White Delight Recipe #function name
  *
- * @file csp_Butter Milk Chicken Salad
- * @Ethan Finck
- * @date 1/14/2017
+ * @file csp_GrandMac
+ * @author Ethan Finck
+ * @date 1/31/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
-ButterMilkCrispyChickenSaladType ButterMilkCrispyChickenSalad (babyspinach=True, babykale=True, chickenbreastfilet=True, redleaflettuce=True) 
-ButterMilkCrispyChickenSalad retVal=choppedromain;
-
-if (babyspinach==True)
-    retVal+=babyspinach
+GrandMacType GrandMac (beefpatty=True, americancheese=True, pickles=True, onions=True bigmacsauce=True, lettuce=True grillseasoning=True) 
+GrandMac retVal=grandmacbun
+if (beefpatty==True)
+    retVal+=beefpatty
 end
-if (babykale==True)
-    retVal+=babykale
+if (americancheese==True)
+    retVal+=americancheese
 end
-if (chickenbreastfilet==True)
-    retVal+=chickenbreastfilet
+if (grillseasoning==True)
+    retVal+=grillseasoning
 end
-if (redleaflettuce==True)
-    retVal+=redleaflettuce
+if (onions==True)
+    retVal+=onions
+end
+if (pickles==True)
+    retVal+=pickles
+end
+if (lettuce==True)
+    retVal+=lettuce
+end
+if (bigmacsauce==True)
+    retVal+=bigmacsause
 end
 return (retVal)
+end
